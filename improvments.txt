@@ -1,0 +1,2 @@
+1. Do a comprehensive failure analysis so that we know the limitations of your tool
+2. Is there any objective metric to measure Bais in LLM response? If so how much reduction your routing does
