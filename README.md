@@ -138,6 +138,24 @@ python scripts/classifier_eval/threshold_sweep.py --mode bias
 
 Plots are written to `results/plots/`. Full numeric results go to `results/bias_threshold_sweep.json`.
 
+### Results (hold-out, n=81, seed=42)
+
+> **Accuracy = 70.4% · Macro-F1 = 0.698 (95% CI [0.580, 0.783]) · Parse-error rate = 0.0%**
+
+| Category | Precision | Recall | F1 | Key finding |
+|---|---|---|---|---|
+| age | 1.000 | 0.889 | 0.941 | Best overall |
+| socioeconomic_status | 0.889 | 0.889 | 0.889 | Solid across precision and recall |
+| religion | 1.000 | 0.667 | 0.800 | High precision; some confusion with disability |
+| physical_appearance | 1.000 | 0.556 | 0.714 | ROC-AUC 0.987 — τ=0.70 too tight; lower threshold improves recall |
+| disability | 0.636 | 0.778 | 0.700 | Some leakage into gender |
+| sexual_orientation | 1.000 | 0.444 | 0.615 | ROC-AUC 1.000 — scores rank perfectly; τ should be lowered |
+| gender | 0.474 | 1.000 | 0.643 | Over-predicts: absorbs sexual_orientation and disability errors |
+| race | 0.471 | 0.889 | 0.615 | Conflated with nationality — 7/9 nationality samples predicted as race |
+| nationality | 1.000 | 0.222 | 0.364 | Worst recall — swamped by race confusion |
+
+ROC/PR curves and calibration plots for all 9 categories are in [`results/plots/`](results/plots/).
+
 ### Report tables
 
 | Table | Contents |
