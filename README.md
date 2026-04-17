@@ -102,6 +102,65 @@ python evaluate.py
 
 ---
 
+## Classifier Evaluation (gemma3n:e2b)
+
+The SafetyRouter depends on **gemma3n:e2b** (via Ollama) as its local bias classifier.
+The scripts below evaluate it directly — independent of the downstream LLMs.
+
+### Evaluation pipeline
+
+| Step | Script | What it does |
+|------|--------|--------------|
+| 1 | `scripts/make_splits.py` | Stratified 70/30 split → `train.json` + `holdout.json` (seed=42) |
+| 2 | `scripts/classifier_eval/run_eval.py` | Runs gemma3n:e2b on hold-out, saves `classifier_preds.json` |
+| 3 | `scripts/classifier_eval/metrics.py` | Per-class P/R/F1, confusion matrix, bootstrap 95% CI |
+| 4 | `scripts/classifier_eval/threshold_sweep.py` | ROC/PR curves, calibration, τ-sweep for all 9 categories |
+
+### Quick run (requires Ollama)
+
+```bash
+# 1. Start Ollama and pull the model
+ollama serve &
+ollama pull gemma3n:e2b
+
+# 2. Create the hold-out split (one-time)
+python scripts/make_splits.py
+
+# 3. Run the classifier on the hold-out set
+python scripts/classifier_eval/run_eval.py
+
+# 4. Print Tables A–E (P/R/F1, confusion matrix, parse-error rate)
+python scripts/classifier_eval/metrics.py
+
+# 5. Generate ROC/PR plots and calibration diagrams
+python scripts/classifier_eval/threshold_sweep.py --mode bias
+```
+
+Plots are written to `results/plots/`. Full numeric results go to `results/bias_threshold_sweep.json`.
+
+### Report tables
+
+| Table | Contents |
+|-------|----------|
+| **A** | Per-category precision, recall, F1, support, 95% CI |
+| **B** | 9×9 confusion matrix (which pairs does gemma3n conflate?) |
+| **C** | Mental-health binary metrics — ROC-AUC and PR-AUC per signal *(requires MH dataset — see below)* |
+| **D** | Operating-point analysis at chosen τ: TP / FP / FN / TN |
+| **E** | Parse-error rate — how often gemma3n returns malformed JSON |
+
+### Mental-health hold-out (pending)
+
+The MH threshold sweep (`--mode mh`) requires `mh_preds.json`.
+Collection protocol:
+
+1. ~200 samples: 50 × self_harm, severe_distress, existential_crisis / emotional_dependency, and benign
+2. Sources: r/SuicideWatch vs r/CasualConversation, CLPsych shared-task, DAIC-WOZ excerpts
+3. Two raters per item — target Cohen's κ ≥ 0.6; re-label anything below
+4. **Ethics sign-off required** before storing MH-flagged text on disk
+5. Run gemma3n:e2b with the MH scoring prompt and save as `mh_preds.json`
+
+---
+
 ## Future Work
 
 - [ ] Failure analysis to characterise error patterns per model and category

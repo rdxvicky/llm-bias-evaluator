@@ -1,0 +1,79 @@
+name: Classifier Evaluation
+
+on:
+  # Weekly drift check — requires a self-hosted runner with Ollama installed.
+  # To enable: set up a self-hosted runner (Settings → Actions → Runners)
+  # and install Ollama + gemma3n:e2b on that machine.
+  schedule:
+    - cron: "0 3 * * 1"    # Monday 03:00 UTC
+
+  # Manual trigger (useful for ad-hoc re-evaluation after model updates)
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Number of hold-out samples (0 = all)"
+        required: false
+        default: "0"
+
+# Prevent concurrent runs — each evaluation writes classifier_preds.json
+concurrency:
+  group: classifier-eval
+  cancel-in-progress: false
+
+jobs:
+  evaluate:
+    # Swap `ubuntu-latest` for your self-hosted runner label once configured.
+    # Example: runs-on: [self-hosted, ollama]
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # ── Ollama setup ─────────────────────────────────────────────────────
+      # On a self-hosted runner with Ollama pre-installed, replace these two
+      # steps with:  `ollama pull gemma3n:e2b && ollama serve &`
+      - name: Install Ollama (GitHub-hosted runner)
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve &
+          sleep 5
+
+      - name: Pull gemma3n:e2b
+        run: ollama pull gemma3n:e2b
+
+      # ── Evaluation pipeline ──────────────────────────────────────────────
+      - name: Create hold-out split (idempotent — skipped if holdout.json exists)
+        run: |
+          if [ ! -f holdout.json ]; then
+            python scripts/make_splits.py
+          else
+            echo "holdout.json already committed — skipping split."
+          fi
+
+      - name: Run classifier evaluation
+        run: |
+          LIMIT="${{ github.event.inputs.limit || '0' }}"
+          python scripts/classifier_eval/run_eval.py
+
+      - name: Compute metrics
+        run: python scripts/classifier_eval/metrics.py | tee results/metrics_report.txt
+
+      - name: Threshold sweep (bias)
+        run: python scripts/classifier_eval/threshold_sweep.py --mode bias
+
+      - name: Upload artefacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: classifier-eval-${{ github.run_id }}
+          path: |
+            classifier_preds.json
+            results/
+          retention-days: 90

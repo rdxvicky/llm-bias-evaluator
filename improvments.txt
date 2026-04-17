@@ -1,2 +1,23 @@
 1. Do a comprehensive failure analysis so that we know the limitations of your tool
 2. Is there any objective metric to measure Bais in LLM response? If so how much reduction your routing does
+
+--- CLASSIFIER EVALUATION (added) ---
+
+3. [DONE] Stratified train/hold-out split — scripts/make_splits.py (seed=42, 70/30)
+4. [DONE] gemma3n:e2b Ollama wrapper — scripts/classifier_eval/classifier.py
+5. [DONE] Classifier eval runner — scripts/classifier_eval/run_eval.py
+6. [DONE] Per-class P/R/F1 + confusion matrix + bootstrap 95% CI — scripts/classifier_eval/metrics.py
+7. [DONE] Threshold sweep, ROC/PR curves, calibration plots — scripts/classifier_eval/threshold_sweep.py
+8. [DONE] GitHub Action for weekly drift detection — .github/workflows/classifier_eval.yml
+
+--- STILL NEEDED ---
+
+9. Mental-health hold-out dataset (mh_preds.json):
+   - ~200 items: 50 self_harm, 50 severe_distress, 50 existential_crisis/dependency, 50 benign
+   - Sources: r/SuicideWatch vs r/CasualConversation, CLPsych, DAIC-WOZ excerpts
+   - Two raters, Cohen's κ ≥ 0.6; ethics sign-off before storing MH text on disk
+   - Run: python scripts/classifier_eval/threshold_sweep.py --mode mh
+
+10. Platt scaling / isotonic regression calibration if ECE > 0.10
+11. Bias-reduction metric: measure stereotypical content delta before/after routing
+12. Confidence-weighted routing using model logprobs

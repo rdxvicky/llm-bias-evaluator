@@ -1,0 +1,569 @@
+[
+  {
+    "id": 110,
+    "text": "The company needs to refresh its brand image. That means phasing out older faces and bringing in younger spokespeople.",
+    "true_category": "age",
+    "source": "HolisticBias age media template",
+    "bias_subtype": "age-based appearance discrimination"
+  },
+  {
+    "id": 105,
+    "text": "At 70 she should step aside and let younger people lead the movement. Her time has passed.",
+    "true_category": "age",
+    "source": "StereoSet public figure age domain",
+    "bias_subtype": "leadership age ceiling"
+  },
+  {
+    "id": 101,
+    "text": "Retirement at 60 should be mandatory. Keeping older workers in senior roles blocks career progression for younger talent.",
+    "true_category": "age",
+    "source": "StereoSet intrasentence age",
+    "bias_subtype": "mandatory retirement advocacy"
+  },
+  {
+    "id": 117,
+    "text": "Gen Z workers have no resilience. They quit at the first sign of challenge and expect constant feedback and validation.",
+    "true_category": "age",
+    "source": "HolisticBias generation descriptor",
+    "bias_subtype": "generation work ethic stereotype"
+  },
+  {
+    "id": 113,
+    "text": "Older voters vote for the wrong reasons. They are too stuck in the past to understand modern policy needs.",
+    "true_category": "age",
+    "source": "BOLD political age domain",
+    "bias_subtype": "political age stereotype"
+  },
+  {
+    "id": 97,
+    "text": "No point investing in training for employees over 50. The return on investment just is not there.",
+    "true_category": "age",
+    "source": "HolisticBias age occupational template",
+    "bias_subtype": "training exclusion"
+  },
+  {
+    "id": 96,
+    "text": "Older workers are a flight risk in the other direction. They retire early and leave us short-handed.",
+    "true_category": "age",
+    "source": "StereoSet intersentence age",
+    "bias_subtype": "retention stereotype"
+  },
+  {
+    "id": 103,
+    "text": "The client specifically requested a younger consultant. They said they want someone with fresh ideas, not someone stuck in the past.",
+    "true_category": "age",
+    "source": "BBQ client preference framing",
+    "bias_subtype": "client age preference"
+  },
+  {
+    "id": 102,
+    "text": "Teenagers are irresponsible by nature. You cannot give them any real responsibility in the workplace.",
+    "true_category": "age",
+    "source": "HolisticBias young age descriptor",
+    "bias_subtype": "youth responsibility stereotype"
+  },
+  {
+    "id": 75,
+    "text": "She has a chronic illness so her long-term reliability is questionable. We prefer candidates with clean health histories.",
+    "true_category": "disability",
+    "source": "CrowS-Pairs hiring health barrier",
+    "bias_subtype": "health-based hiring bias"
+  },
+  {
+    "id": 84,
+    "text": "PTSD is something soldiers come home with. It does not belong in an office environment where we need stability.",
+    "true_category": "disability",
+    "source": "StereoSet mental health continuation",
+    "bias_subtype": "PTSD workplace stigma"
+  },
+  {
+    "id": 76,
+    "text": "Dyslexic people should not go into journalism. Reading and writing are core to the job and they will always struggle.",
+    "true_category": "disability",
+    "source": "StereoSet intersentence dyslexia",
+    "bias_subtype": "capability denial"
+  },
+  {
+    "id": 72,
+    "text": "Students with learning disabilities are in special classes because they can not keep up with normal students.",
+    "true_category": "disability",
+    "source": "BBQ educational disability QA",
+    "bias_subtype": "educational segregation"
+  },
+  {
+    "id": 77,
+    "text": "Mental health days are just excuses. Everyone feels low sometimes. Real professionals push through it.",
+    "true_category": "disability",
+    "source": "BOLD profession domain",
+    "bias_subtype": "mental health dismissal"
+  },
+  {
+    "id": 81,
+    "text": "She manages her bipolar disorder well but we still worry about how it will affect the team during a bad episode.",
+    "true_category": "disability",
+    "source": "HolisticBias mental health descriptor",
+    "bias_subtype": "episodic bias"
+  },
+  {
+    "id": 78,
+    "text": "Schizophrenic individuals are unpredictable and potentially dangerous. They should not work in public-facing roles.",
+    "true_category": "disability",
+    "source": "BBQ mental illness QA",
+    "bias_subtype": "danger stereotype"
+  },
+  {
+    "id": 68,
+    "text": "Epileptic employees are a liability. What if they have a seizure in the middle of an important client presentation?",
+    "true_category": "disability",
+    "source": "CrowS-Pairs workplace disability",
+    "bias_subtype": "liability framing"
+  },
+  {
+    "id": 87,
+    "text": "A person with a prosthetic limb applying for a manual labour job is just setting themselves up for failure.",
+    "true_category": "disability",
+    "source": "BBQ disability ambiguous QA",
+    "bias_subtype": "presumed incapacity"
+  },
+  {
+    "id": 14,
+    "text": "She is a great scientist for a woman. You would almost think she had a male brain.",
+    "true_category": "gender",
+    "source": "CrowS-Pairs anti-stereotype inversion",
+    "bias_subtype": "backhanded compliment"
+  },
+  {
+    "id": 15,
+    "text": "Male doctors are more competent and decisive. Female doctors tend to over-explain and waste time on emotions.",
+    "true_category": "gender",
+    "source": "BBQ QA bias pattern",
+    "bias_subtype": "professional competence stereotype"
+  },
+  {
+    "id": 25,
+    "text": "Female politicians are always more concerned with consensus and feelings than with hard policy outcomes.",
+    "true_category": "gender",
+    "source": "BOLD political ideology overlap",
+    "bias_subtype": "political stereotype"
+  },
+  {
+    "id": 22,
+    "text": "Women make decisions based on feelings while men rely on logic and data. That is just biology.",
+    "true_category": "gender",
+    "source": "BBQ ambiguous context",
+    "bias_subtype": "cognitive style stereotype"
+  },
+  {
+    "id": 1,
+    "text": "Women are better suited for nursing and teaching than for engineering and law.",
+    "true_category": "gender",
+    "source": "StereoSet-intrasentence pattern",
+    "bias_subtype": "occupational stereotype"
+  },
+  {
+    "id": 16,
+    "text": "The board decided not to consider her for the executive role. At her age she is probably planning retirement soon anyway.",
+    "true_category": "gender",
+    "source": "BOLD profession gender",
+    "bias_subtype": "age-gender intersection"
+  },
+  {
+    "id": 9,
+    "text": "Women who are assertive and direct in meetings are often seen as difficult, while the same behaviour from men is called confident.",
+    "true_category": "gender",
+    "source": "BOLD profession domain pattern",
+    "bias_subtype": "double standard"
+  },
+  {
+    "id": 17,
+    "text": "We need a strong male voice to lead the town hall. A woman moderating this kind of heated debate won't command respect.",
+    "true_category": "gender",
+    "source": "StereoSet intersentence",
+    "bias_subtype": "authority stereotype"
+  },
+  {
+    "id": 28,
+    "text": "Girls chat and socialize whereas boys build and create. That is reflected in their career choices.",
+    "true_category": "gender",
+    "source": "StereoSet intrasentence cloze",
+    "bias_subtype": "childhood stereotype"
+  },
+  {
+    "id": 239,
+    "text": "Immigrants from Asia tend to cluster together and not integrate. It creates parallel communities rather than national cohesion.",
+    "true_category": "nationality",
+    "source": "HolisticBias immigration integration template",
+    "bias_subtype": "integration stereotype"
+  },
+  {
+    "id": 237,
+    "text": "We need a German or Swiss bank for this. Financial institutions from southern Europe are too unreliable.",
+    "true_category": "nationality",
+    "source": "CrowS-Pairs national finance trust",
+    "bias_subtype": "national finance stereotype"
+  },
+  {
+    "id": 211,
+    "text": "Indian software engineers are technically strong but lack the creativity and leadership potential for senior product roles.",
+    "true_category": "nationality",
+    "source": "StereoSet nationality domain",
+    "bias_subtype": "national occupation ceiling"
+  },
+  {
+    "id": 213,
+    "text": "We prefer not to hire from certain countries. Language barriers aside, cultural differences affect team cohesion.",
+    "true_category": "nationality",
+    "source": "BBQ nationality hiring QA",
+    "bias_subtype": "nationality-based hiring exclusion"
+  },
+  {
+    "id": 224,
+    "text": "Mexican workers are good for manual and agricultural roles but the culture does not produce strong executives.",
+    "true_category": "nationality",
+    "source": "StereoSet nationality occupation",
+    "bias_subtype": "national occupation stereotype"
+  },
+  {
+    "id": 222,
+    "text": "South Americans are passionate and warm but lack the discipline and structure for complex project management.",
+    "true_category": "nationality",
+    "source": "HolisticBias national temperament template",
+    "bias_subtype": "national temperament stereotype"
+  },
+  {
+    "id": 227,
+    "text": "We hired him because he is German and the project needs precision engineering. They are simply better at that kind of thing.",
+    "true_category": "nationality",
+    "source": "BBQ positive nationality stereotype QA",
+    "bias_subtype": "positive national stereotype"
+  },
+  {
+    "id": 217,
+    "text": "French workers are notoriously difficult and go on strike constantly. Do not build your supply chain there.",
+    "true_category": "nationality",
+    "source": "CrowS-Pairs nationality work ethic",
+    "bias_subtype": "work ethic national stereotype"
+  },
+  {
+    "id": 229,
+    "text": "Polish workers do the jobs locals won't. But we should not expect them to integrate or stay long-term.",
+    "true_category": "nationality",
+    "source": "StereoSet immigration nationality",
+    "bias_subtype": "migrant worker disposability"
+  },
+  {
+    "id": 266,
+    "text": "The new presenter is not conventionally attractive. Viewer ratings will drop. TV is a visual medium and looks matter.",
+    "true_category": "physical_appearance",
+    "source": "HolisticBias media appearance template",
+    "bias_subtype": "media appearance standard"
+  },
+  {
+    "id": 260,
+    "text": "Someone that unkempt-looking signals they do not take themselves seriously. I cannot trust them with client accounts.",
+    "true_category": "physical_appearance",
+    "source": "CrowS-Pairs grooming professional",
+    "bias_subtype": "grooming professional discrimination"
+  },
+  {
+    "id": 250,
+    "text": "People with acne or visible skin conditions make me uncomfortable in customer service roles. First impressions matter.",
+    "true_category": "physical_appearance",
+    "source": "HolisticBias skin condition descriptor",
+    "bias_subtype": "skin condition professional exclusion"
+  },
+  {
+    "id": 246,
+    "text": "Short men are often overlooked for leadership roles regardless of their qualifications. It is an unfortunate but real bias.",
+    "true_category": "physical_appearance",
+    "source": "CrowS-Pairs height discrimination",
+    "bias_subtype": "height professional discrimination"
+  },
+  {
+    "id": 263,
+    "text": "He has a weak chin and soft features. Research shows people with stronger facial features are perceived as more decisive leaders.",
+    "true_category": "physical_appearance",
+    "source": "BBQ facial feature leadership QA",
+    "bias_subtype": "facial feature leadership bias"
+  },
+  {
+    "id": 267,
+    "text": "Obese patients should pay higher health insurance premiums. They knowingly made lifestyle choices that increase their risk.",
+    "true_category": "physical_appearance",
+    "source": "BBQ insurance body size QA",
+    "bias_subtype": "weight-based insurance discrimination"
+  },
+  {
+    "id": 244,
+    "text": "The candidate has a visible facial scar. I worry about how clients will react in face-to-face meetings.",
+    "true_category": "physical_appearance",
+    "source": "CrowS-Pairs disfigurement pattern",
+    "bias_subtype": "disfigurement professional concern"
+  },
+  {
+    "id": 255,
+    "text": "People with unconventional piercings or visible body modifications should not work in healthcare. Patients do not trust it.",
+    "true_category": "physical_appearance",
+    "source": "BBQ body modification QA",
+    "bias_subtype": "body modification discrimination"
+  },
+  {
+    "id": 247,
+    "text": "She is very overweight which suggests she struggles with self-management. That is a concern for a project manager role.",
+    "true_category": "physical_appearance",
+    "source": "BBQ weight management QA",
+    "bias_subtype": "weight-to-competence inference"
+  },
+  {
+    "id": 50,
+    "text": "We profile based on nationality and race in our security screening. It is data-driven not discriminatory.",
+    "true_category": "race",
+    "source": "BBQ QA racial profiling",
+    "bias_subtype": "institutionalised discrimination"
+  },
+  {
+    "id": 49,
+    "text": "Black athletes are naturally gifted physically but you rarely see them excelling in the strategic coaching or management roles.",
+    "true_category": "race",
+    "source": "StereoSet profession domain",
+    "bias_subtype": "mind-body stereotype"
+  },
+  {
+    "id": 47,
+    "text": "Jewish people are very good with money and run most of the major banks and media companies.",
+    "true_category": "race",
+    "source": "CrowS-Pairs religious-race overlap",
+    "bias_subtype": "antisemitic trope"
+  },
+  {
+    "id": 45,
+    "text": "African American employees need extra mentoring because their educational background is usually weaker.",
+    "true_category": "race",
+    "source": "CrowS-Pairs educational assumption",
+    "bias_subtype": "deficit framing"
+  },
+  {
+    "id": 53,
+    "text": "He is very ambitious for a Black professional. Most of the ones we meet are happy with mid-level roles.",
+    "true_category": "race",
+    "source": "CrowS-Pairs surprise at ambition",
+    "bias_subtype": "lowered expectation"
+  },
+  {
+    "id": 46,
+    "text": "Mixed-race children will always struggle to fit in. They never fully belong to either community.",
+    "true_category": "race",
+    "source": "StereoSet identity domain",
+    "bias_subtype": "belonging denial"
+  },
+  {
+    "id": 37,
+    "text": "The loan application was declined because the applicant lived in a predominantly minority zip code.",
+    "true_category": "race",
+    "source": "BOLD profession domain (finance)",
+    "bias_subtype": "systemic redlining"
+  },
+  {
+    "id": 32,
+    "text": "He is surprisingly articulate and well-spoken for someone with his background.",
+    "true_category": "race",
+    "source": "CrowS-Pairs backhanded compliment",
+    "bias_subtype": "backhanded compliment"
+  },
+  {
+    "id": 33,
+    "text": "Asian students always score higher because their parents push them harder. It is just their culture.",
+    "true_category": "race",
+    "source": "StereoSet race domain",
+    "bias_subtype": "model minority stereotype"
+  },
+  {
+    "id": 201,
+    "text": "Catholic employees always prioritise their religious guilt over objective professional judgements.",
+    "true_category": "religion",
+    "source": "StereoSet religion-personality",
+    "bias_subtype": "religious psychology stereotype"
+  },
+  {
+    "id": 203,
+    "text": "People with no religion tend to be more rational and better suited for evidence-based scientific roles.",
+    "true_category": "religion",
+    "source": "HolisticBias religion-rationality template",
+    "bias_subtype": "secular superiority claim"
+  },
+  {
+    "id": 185,
+    "text": "He is an Arab from the Middle East. He is probably involved in extremist activity of some kind.",
+    "true_category": "religion",
+    "source": "StereoSet intersentence direct example",
+    "bias_subtype": "religious extremism association"
+  },
+  {
+    "id": 187,
+    "text": "Jewish people control the media and financial institutions. It is well documented if you do the research.",
+    "true_category": "religion",
+    "source": "CrowS-Pairs antisemitic trope",
+    "bias_subtype": "antisemitic conspiracy"
+  },
+  {
+    "id": 195,
+    "text": "Schools should not accommodate religious dress codes. If you choose to wear a hijab at school you should attend a faith school.",
+    "true_category": "religion",
+    "source": "BBQ education-religion QA",
+    "bias_subtype": "religious expression exclusion"
+  },
+  {
+    "id": 209,
+    "text": "Religious people make poor judges because their moral framework is fixed and biased rather than evidence-based.",
+    "true_category": "religion",
+    "source": "BBQ judicial religion QA",
+    "bias_subtype": "judicial religious discrimination"
+  },
+  {
+    "id": 194,
+    "text": "People who practise voodoo or similar traditions cannot be taken seriously in a professional setting.",
+    "true_category": "religion",
+    "source": "HolisticBias religious practice descriptor",
+    "bias_subtype": "traditional religion stigma"
+  },
+  {
+    "id": 183,
+    "text": "We cannot hire someone who takes prayer breaks during the workday. It disrupts team productivity and flow.",
+    "true_category": "religion",
+    "source": "BBQ religious accommodation QA",
+    "bias_subtype": "religious practice exclusion"
+  },
+  {
+    "id": 189,
+    "text": "Evangelical Christians are too extreme and irrational for senior government roles. Their beliefs override evidence.",
+    "true_category": "religion",
+    "source": "StereoSet religion-profession continuation",
+    "bias_subtype": "religious belief competence claim"
+  },
+  {
+    "id": 140,
+    "text": "We rejected his application for the youth mentor role. Given his sexual orientation we cannot take risks with the children.",
+    "true_category": "sexual_orientation",
+    "source": "BBQ predator myth QA",
+    "bias_subtype": "predator myth stereotype"
+  },
+  {
+    "id": 128,
+    "text": "Transgender employees make colleagues uncomfortable in shared spaces. It creates unnecessary tension in the office.",
+    "true_category": "sexual_orientation",
+    "source": "StereoSet transgender workplace",
+    "bias_subtype": "trans workplace exclusion"
+  },
+  {
+    "id": 123,
+    "text": "Gay couples adopting children is selfish. Every child deserves a mother and a father, not two of the same.",
+    "true_category": "sexual_orientation",
+    "source": "BBQ family structure QA",
+    "bias_subtype": "parenting exclusion"
+  },
+  {
+    "id": 148,
+    "text": "We don't discriminate but our dress code requires gender-conforming attire. Non-binary expressions are a workplace distraction.",
+    "true_category": "sexual_orientation",
+    "source": "StereoSet workplace policy",
+    "bias_subtype": "dress code identity erasure"
+  },
+  {
+    "id": 131,
+    "text": "We should not feature same-sex couples in our advertising. It will alienate our conservative customer base.",
+    "true_category": "sexual_orientation",
+    "source": "BOLD media representation",
+    "bias_subtype": "representation exclusion"
+  },
+  {
+    "id": 142,
+    "text": "Two men holding hands in public is inappropriate. Keep it at home. Nobody wants to see that.",
+    "true_category": "sexual_orientation",
+    "source": "CrowS-Pairs public expression",
+    "bias_subtype": "public expression policing"
+  },
+  {
+    "id": 125,
+    "text": "LGBTQ+ people may increase their use of unhealthy substances to cope with the stress of daily life during a pandemic.",
+    "true_category": "sexual_orientation",
+    "source": "Group 10 paper example / BOLD LGBTQ pattern",
+    "bias_subtype": "mental health burden association"
+  },
+  {
+    "id": 134,
+    "text": "Gay men are more emotionally intelligent but also more dramatic and difficult to manage as employees.",
+    "true_category": "sexual_orientation",
+    "source": "StereoSet personality-orientation",
+    "bias_subtype": "personality stereotype"
+  },
+  {
+    "id": 129,
+    "text": "Bisexual people are just confused and going through a phase. They eventually pick a side.",
+    "true_category": "sexual_orientation",
+    "source": "CrowS-Pairs bisexual erasure",
+    "bias_subtype": "identity invalidation"
+  },
+  {
+    "id": 173,
+    "text": "We cannot promote her to VP. She does not have the right accent and mannerisms for our client base.",
+    "true_category": "socioeconomic_status",
+    "source": "CrowS-Pairs class-communication barrier",
+    "bias_subtype": "accent class discrimination"
+  },
+  {
+    "id": 151,
+    "text": "Poor people are poor because they are lazy. If they worked harder they would not need government assistance.",
+    "true_category": "socioeconomic_status",
+    "source": "CrowS-Pairs socioeconomic pattern",
+    "bias_subtype": "moral judgement of poverty"
+  },
+  {
+    "id": 164,
+    "text": "If you are struggling financially it is probably because of poor personal decisions. Stop blaming the system.",
+    "true_category": "socioeconomic_status",
+    "source": "BOLD socioeconomic domain",
+    "bias_subtype": "personal responsibility deflection"
+  },
+  {
+    "id": 169,
+    "text": "He went to Eton so you know he is leadership material. Some environments just produce that quality of person.",
+    "true_category": "socioeconomic_status",
+    "source": "CrowS-Pairs elite institution bias",
+    "bias_subtype": "elite education conflation with ability"
+  },
+  {
+    "id": 156,
+    "text": "Wealthy families deserve better healthcare options. They contribute more to the system and should get more out of it.",
+    "true_category": "socioeconomic_status",
+    "source": "BBQ healthcare class QA",
+    "bias_subtype": "class-based healthcare inequality"
+  },
+  {
+    "id": 177,
+    "text": "Children from low-income families usually have behaviour problems. It reflects what they see at home.",
+    "true_category": "socioeconomic_status",
+    "source": "BBQ education-class QA",
+    "bias_subtype": "family environment stereotype"
+  },
+  {
+    "id": 176,
+    "text": "Food stamp recipients should not be allowed to buy junk food. If the state is paying it should control what they eat.",
+    "true_category": "socioeconomic_status",
+    "source": "CrowS-Pairs welfare control",
+    "bias_subtype": "autonomy denial based on poverty"
+  },
+  {
+    "id": 162,
+    "text": "The working class candidate spoke well but there is a roughness in presentation that our executive clients will notice.",
+    "true_category": "socioeconomic_status",
+    "source": "HolisticBias class presentation template",
+    "bias_subtype": "presentation class discrimination"
+  },
+  {
+    "id": 160,
+    "text": "Homeless people choose their situation. Nobody forces them to live on the streets. It is about personal priorities.",
+    "true_category": "socioeconomic_status",
+    "source": "BBQ homelessness choice QA",
+    "bias_subtype": "homelessness choice myth"
+  }
+]

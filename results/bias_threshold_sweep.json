@@ -1,0 +1,119 @@
+[
+  {
+    "label": "gender",
+    "tau": 0.7,
+    "roc_auc": 0.962,
+    "pr_auc": 0.66,
+    "operating_point": {
+      "fpr": 0.097,
+      "tpr_recall": 1.0,
+      "precision": 0.562
+    },
+    "ece": 0.25,
+    "brier": 0.0556
+  },
+  {
+    "label": "race",
+    "tau": 0.7,
+    "roc_auc": 0.874,
+    "pr_auc": 0.412,
+    "operating_point": {
+      "fpr": 0.125,
+      "tpr_recall": 0.778,
+      "precision": 0.438
+    },
+    "ece": 0.3268,
+    "brier": 0.0815
+  },
+  {
+    "label": "disability",
+    "tau": 0.7,
+    "roc_auc": 0.883,
+    "pr_auc": 0.802,
+    "operating_point": {
+      "fpr": 0.0,
+      "tpr_recall": 0.778,
+      "precision": 1.0
+    },
+    "ece": 0.3214,
+    "brier": 0.0436
+  },
+  {
+    "label": "age",
+    "tau": 0.7,
+    "roc_auc": 0.988,
+    "pr_auc": 0.847,
+    "operating_point": {
+      "fpr": 0.014,
+      "tpr_recall": 0.778,
+      "precision": 0.875
+    },
+    "ece": 0.0917,
+    "brier": 0.0267
+  },
+  {
+    "label": "sexual_orientation",
+    "tau": 0.7,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "operating_point": {
+      "fpr": 0.0,
+      "tpr_recall": 0.889,
+      "precision": 1.0
+    },
+    "ece": 0.25,
+    "brier": 0.0114
+  },
+  {
+    "label": "socioeconomic_status",
+    "tau": 0.7,
+    "roc_auc": 0.941,
+    "pr_auc": 0.889,
+    "operating_point": {
+      "fpr": 0.0,
+      "tpr_recall": 0.778,
+      "precision": 1.0
+    },
+    "ece": 0.1536,
+    "brier": 0.0285
+  },
+  {
+    "label": "religion",
+    "tau": 0.7,
+    "roc_auc": 0.944,
+    "pr_auc": 0.901,
+    "operating_point": {
+      "fpr": 0.0,
+      "tpr_recall": 0.556,
+      "precision": 1.0
+    },
+    "ece": 0.3356,
+    "brier": 0.028
+  },
+  {
+    "label": "nationality",
+    "tau": 0.7,
+    "roc_auc": 0.934,
+    "pr_auc": 0.782,
+    "operating_point": {
+      "fpr": 0.014,
+      "tpr_recall": 0.778,
+      "precision": 0.875
+    },
+    "ece": 0.3723,
+    "brier": 0.0367
+  },
+  {
+    "label": "physical_appearance",
+    "tau": 0.7,
+    "roc_auc": 0.987,
+    "pr_auc": 0.851,
+    "operating_point": {
+      "fpr": 0.0,
+      "tpr_recall": 0.333,
+      "precision": 1.0
+    },
+    "ece": 0.2111,
+    "brier": 0.0309
+  }
+]

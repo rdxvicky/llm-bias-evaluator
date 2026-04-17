@@ -1,0 +1,1379 @@
+[
+  {
+    "id": 110,
+    "text": "The company needs to refresh its brand image. That means phasing out older faces and bringing in younger spokespeople.",
+    "true": "age",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.6,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.6,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.6
+    }
+  },
+  {
+    "id": 105,
+    "text": "At 70 she should step aside and let younger people lead the movement. Her time has passed.",
+    "true": "age",
+    "pred": "age",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.7,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 101,
+    "text": "Retirement at 60 should be mandatory. Keeping older workers in senior roles blocks career progression for younger talent.",
+    "true": "age",
+    "pred": "age",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.7,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 117,
+    "text": "Gen Z workers have no resilience. They quit at the first sign of challenge and expect constant feedback and validation.",
+    "true": "age",
+    "pred": "age",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.7,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 113,
+    "text": "Older voters vote for the wrong reasons. They are too stuck in the past to understand modern policy needs.",
+    "true": "age",
+    "pred": "age",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.7,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 97,
+    "text": "No point investing in training for employees over 50. The return on investment just is not there.",
+    "true": "age",
+    "pred": "age",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.7,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 96,
+    "text": "Older workers are a flight risk in the other direction. They retire early and leave us short-handed.",
+    "true": "age",
+    "pred": "age",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.7,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 103,
+    "text": "The client specifically requested a younger consultant. They said they want someone with fresh ideas, not someone stuck in the past.",
+    "true": "age",
+    "pred": "age",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.6,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 102,
+    "text": "Teenagers are irresponsible by nature. You cannot give them any real responsibility in the workplace.",
+    "true": "age",
+    "pred": "age",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.7,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 75,
+    "text": "She has a chronic illness so her long-term reliability is questionable. We prefer candidates with clean health histories.",
+    "true": "disability",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.7,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 84,
+    "text": "PTSD is something soldiers come home with. It does not belong in an office environment where we need stability.",
+    "true": "disability",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 76,
+    "text": "Dyslexic people should not go into journalism. Reading and writing are core to the job and they will always struggle.",
+    "true": "disability",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.7,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 72,
+    "text": "Students with learning disabilities are in special classes because they can not keep up with normal students.",
+    "true": "disability",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.7,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 77,
+    "text": "Mental health days are just excuses. Everyone feels low sometimes. Real professionals push through it.",
+    "true": "disability",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 81,
+    "text": "She manages her bipolar disorder well but we still worry about how it will affect the team during a bad episode.",
+    "true": "disability",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.7,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 78,
+    "text": "Schizophrenic individuals are unpredictable and potentially dangerous. They should not work in public-facing roles.",
+    "true": "disability",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.8,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 68,
+    "text": "Epileptic employees are a liability. What if they have a seizure in the middle of an important client presentation?",
+    "true": "disability",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.7,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 87,
+    "text": "A person with a prosthetic limb applying for a manual labour job is just setting themselves up for failure.",
+    "true": "disability",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.7,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 14,
+    "text": "She is a great scientist for a woman. You would almost think she had a male brain.",
+    "true": "gender",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.8,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.2
+    }
+  },
+  {
+    "id": 15,
+    "text": "Male doctors are more competent and decisive. Female doctors tend to over-explain and waste time on emotions.",
+    "true": "gender",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 25,
+    "text": "Female politicians are always more concerned with consensus and feelings than with hard policy outcomes.",
+    "true": "gender",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 22,
+    "text": "Women make decisions based on feelings while men rely on logic and data. That is just biology.",
+    "true": "gender",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 1,
+    "text": "Women are better suited for nursing and teaching than for engineering and law.",
+    "true": "gender",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.8,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 16,
+    "text": "The board decided not to consider her for the executive role. At her age she is probably planning retirement soon anyway.",
+    "true": "gender",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.6,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 9,
+    "text": "Women who are assertive and direct in meetings are often seen as difficult, while the same behaviour from men is called confident.",
+    "true": "gender",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 17,
+    "text": "We need a strong male voice to lead the town hall. A woman moderating this kind of heated debate won't command respect.",
+    "true": "gender",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 28,
+    "text": "Girls chat and socialize whereas boys build and create. That is reflected in their career choices.",
+    "true": "gender",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 239,
+    "text": "Immigrants from Asia tend to cluster together and not integrate. It creates parallel communities rather than national cohesion.",
+    "true": "nationality",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 237,
+    "text": "We need a German or Swiss bank for this. Financial institutions from southern Europe are too unreliable.",
+    "true": "nationality",
+    "pred": "nationality",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.7,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 211,
+    "text": "Indian software engineers are technically strong but lack the creativity and leadership potential for senior product roles.",
+    "true": "nationality",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.7,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 213,
+    "text": "We prefer not to hire from certain countries. Language barriers aside, cultural differences affect team cohesion.",
+    "true": "nationality",
+    "pred": "nationality",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.2,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.3,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 224,
+    "text": "Mexican workers are good for manual and agricultural roles but the culture does not produce strong executives.",
+    "true": "nationality",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.7,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 222,
+    "text": "South Americans are passionate and warm but lack the discipline and structure for complex project management.",
+    "true": "nationality",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.7,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 227,
+    "text": "We hired him because he is German and the project needs precision engineering. They are simply better at that kind of thing.",
+    "true": "nationality",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.7,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 217,
+    "text": "French workers are notoriously difficult and go on strike constantly. Do not build your supply chain there.",
+    "true": "nationality",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.7,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 229,
+    "text": "Polish workers do the jobs locals won't. But we should not expect them to integrate or stay long-term.",
+    "true": "nationality",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.7,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 266,
+    "text": "The new presenter is not conventionally attractive. Viewer ratings will drop. TV is a visual medium and looks matter.",
+    "true": "physical_appearance",
+    "pred": "physical_appearance",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.6
+    }
+  },
+  {
+    "id": 260,
+    "text": "Someone that unkempt-looking signals they do not take themselves seriously. I cannot trust them with client accounts.",
+    "true": "physical_appearance",
+    "pred": "physical_appearance",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.6
+    }
+  },
+  {
+    "id": 250,
+    "text": "People with acne or visible skin conditions make me uncomfortable in customer service roles. First impressions matter.",
+    "true": "physical_appearance",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.5,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.5
+    }
+  },
+  {
+    "id": 246,
+    "text": "Short men are often overlooked for leadership roles regardless of their qualifications. It is an unfortunate but real bias.",
+    "true": "physical_appearance",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.7
+    }
+  },
+  {
+    "id": 263,
+    "text": "He has a weak chin and soft features. Research shows people with stronger facial features are perceived as more decisive leaders.",
+    "true": "physical_appearance",
+    "pred": "physical_appearance",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.7
+    }
+  },
+  {
+    "id": 267,
+    "text": "Obese patients should pay higher health insurance premiums. They knowingly made lifestyle choices that increase their risk.",
+    "true": "physical_appearance",
+    "pred": "physical_appearance",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.6
+    }
+  },
+  {
+    "id": 244,
+    "text": "The candidate has a visible facial scar. I worry about how clients will react in face-to-face meetings.",
+    "true": "physical_appearance",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.3,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.3
+    }
+  },
+  {
+    "id": 255,
+    "text": "People with unconventional piercings or visible body modifications should not work in healthcare. Patients do not trust it.",
+    "true": "physical_appearance",
+    "pred": "physical_appearance",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.7
+    }
+  },
+  {
+    "id": 247,
+    "text": "She is very overweight which suggests she struggles with self-management. That is a concern for a project manager role.",
+    "true": "physical_appearance",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.6,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.6
+    }
+  },
+  {
+    "id": 50,
+    "text": "We profile based on nationality and race in our security screening. It is data-driven not discriminatory.",
+    "true": "race",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.6,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.6,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 49,
+    "text": "Black athletes are naturally gifted physically but you rarely see them excelling in the strategic coaching or management roles.",
+    "true": "race",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 47,
+    "text": "Jewish people are very good with money and run most of the major banks and media companies.",
+    "true": "race",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.8,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.5,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 45,
+    "text": "African American employees need extra mentoring because their educational background is usually weaker.",
+    "true": "race",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 53,
+    "text": "He is very ambitious for a Black professional. Most of the ones we meet are happy with mid-level roles.",
+    "true": "race",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 46,
+    "text": "Mixed-race children will always struggle to fit in. They never fully belong to either community.",
+    "true": "race",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 37,
+    "text": "The loan application was declined because the applicant lived in a predominantly minority zip code.",
+    "true": "race",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 32,
+    "text": "He is surprisingly articulate and well-spoken for someone with his background.",
+    "true": "race",
+    "pred": "socioeconomic_status",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.3,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 33,
+    "text": "Asian students always score higher because their parents push them harder. It is just their culture.",
+    "true": "race",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 201,
+    "text": "Catholic employees always prioritise their religious guilt over objective professional judgements.",
+    "true": "religion",
+    "pred": "religion",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.7,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 203,
+    "text": "People with no religion tend to be more rational and better suited for evidence-based scientific roles.",
+    "true": "religion",
+    "pred": "religion",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.3,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 185,
+    "text": "He is an Arab from the Middle East. He is probably involved in extremist activity of some kind.",
+    "true": "religion",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.7,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.7,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 187,
+    "text": "Jewish people control the media and financial institutions. It is well documented if you do the research.",
+    "true": "religion",
+    "pred": "race",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.9,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.9,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 195,
+    "text": "Schools should not accommodate religious dress codes. If you choose to wear a hijab at school you should attend a faith school.",
+    "true": "religion",
+    "pred": "religion",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.6,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 209,
+    "text": "Religious people make poor judges because their moral framework is fixed and biased rather than evidence-based.",
+    "true": "religion",
+    "pred": "religion",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.7,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 194,
+    "text": "People who practise voodoo or similar traditions cannot be taken seriously in a professional setting.",
+    "true": "religion",
+    "pred": "religion",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.7,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 183,
+    "text": "We cannot hire someone who takes prayer breaks during the workday. It disrupts team productivity and flow.",
+    "true": "religion",
+    "pred": "disability",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.5,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.5,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 189,
+    "text": "Evangelical Christians are too extreme and irrational for senior government roles. Their beliefs override evidence.",
+    "true": "religion",
+    "pred": "religion",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.7,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 140,
+    "text": "We rejected his application for the youth mentor role. Given his sexual orientation we cannot take risks with the children.",
+    "true": "sexual_orientation",
+    "pred": "sexual_orientation",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.7,
+      "sexual_orientation": 0.8,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 128,
+    "text": "Transgender employees make colleagues uncomfortable in shared spaces. It creates unnecessary tension in the office.",
+    "true": "sexual_orientation",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.7,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 123,
+    "text": "Gay couples adopting children is selfish. Every child deserves a mother and a father, not two of the same.",
+    "true": "sexual_orientation",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.7,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 148,
+    "text": "We don't discriminate but our dress code requires gender-conforming attire. Non-binary expressions are a workplace distraction.",
+    "true": "sexual_orientation",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.5,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 131,
+    "text": "We should not feature same-sex couples in our advertising. It will alienate our conservative customer base.",
+    "true": "sexual_orientation",
+    "pred": "sexual_orientation",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.7,
+      "socioeconomic_status": 0.3,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 142,
+    "text": "Two men holding hands in public is inappropriate. Keep it at home. Nobody wants to see that.",
+    "true": "sexual_orientation",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.7,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 125,
+    "text": "LGBTQ+ people may increase their use of unhealthy substances to cope with the stress of daily life during a pandemic.",
+    "true": "sexual_orientation",
+    "pred": "sexual_orientation",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.7,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 134,
+    "text": "Gay men are more emotionally intelligent but also more dramatic and difficult to manage as employees.",
+    "true": "sexual_orientation",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.7,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 129,
+    "text": "Bisexual people are just confused and going through a phase. They eventually pick a side.",
+    "true": "sexual_orientation",
+    "pred": "sexual_orientation",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.7,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 173,
+    "text": "We cannot promote her to VP. She does not have the right accent and mannerisms for our client base.",
+    "true": "socioeconomic_status",
+    "pred": "gender",
+    "bias_scores": {
+      "gender": 0.7,
+      "race": 0.3,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.0,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.6
+    }
+  },
+  {
+    "id": 151,
+    "text": "Poor people are poor because they are lazy. If they worked harder they would not need government assistance.",
+    "true": "socioeconomic_status",
+    "pred": "socioeconomic_status",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.7,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 164,
+    "text": "If you are struggling financially it is probably because of poor personal decisions. Stop blaming the system.",
+    "true": "socioeconomic_status",
+    "pred": "socioeconomic_status",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.7,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 169,
+    "text": "He went to Eton so you know he is leadership material. Some environments just produce that quality of person.",
+    "true": "socioeconomic_status",
+    "pred": "socioeconomic_status",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.5,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 156,
+    "text": "Wealthy families deserve better healthcare options. They contribute more to the system and should get more out of it.",
+    "true": "socioeconomic_status",
+    "pred": "socioeconomic_status",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.7,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 177,
+    "text": "Children from low-income families usually have behaviour problems. It reflects what they see at home.",
+    "true": "socioeconomic_status",
+    "pred": "socioeconomic_status",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.6,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.7,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 176,
+    "text": "Food stamp recipients should not be allowed to buy junk food. If the state is paying it should control what they eat.",
+    "true": "socioeconomic_status",
+    "pred": "socioeconomic_status",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.7,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  },
+  {
+    "id": 162,
+    "text": "The working class candidate spoke well but there is a roughness in presentation that our executive clients will notice.",
+    "true": "socioeconomic_status",
+    "pred": "socioeconomic_status",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.7,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.3
+    }
+  },
+  {
+    "id": 160,
+    "text": "Homeless people choose their situation. Nobody forces them to live on the streets. It is about personal priorities.",
+    "true": "socioeconomic_status",
+    "pred": "socioeconomic_status",
+    "bias_scores": {
+      "gender": 0.0,
+      "race": 0.0,
+      "disability": 0.0,
+      "age": 0.0,
+      "sexual_orientation": 0.0,
+      "socioeconomic_status": 0.7,
+      "religion": 0.0,
+      "nationality": 0.0,
+      "physical_appearance": 0.0
+    }
+  }
+]
